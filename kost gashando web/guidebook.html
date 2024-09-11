@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guidebook - Gashando Kost</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            position: relative; /* Untuk menempatkan pseudo-element */
+        }
+
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('bgw.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            opacity: 0.5; /* Mengatur transparansi gambar */
+            z-index: -1; /* Agar pseudo-element berada di belakang konten */
+        }
+
+        h1 {
+            text-align: center;
+        }
+        .container {
+            margin: 0 auto;
+            max-width: 800px;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8); /* Background putih transparan untuk konten */
+            padding: 20px;
+            border-radius: 8px;
+        }
+        video {
+            width: 100%;
+            margin: 20px 0;
+        }
+        img {
+            max-width: 100%;
+            margin: 20px 0;
+        }
+        ul {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Guidebook Kost Gashando</h1>
+
+        <h2>Peraturan Kost</h2>
+        <ol style="text-align: justify;">
+            <li>Pengguna kamar kost khusus mahasiswi & karyawati maksimal umur 25 tahun.</li>
+            <li>Penghuni kost wajib menjaga kebersihan baik lingkungan kamar pribadi ataupun lingkungan kost Gashando.</li>
+            <li>Perkamar bebas beban listrik untuk 1 (satu) unit kipas angin. Selain peralatan tersebut akan dikenakan biaya tambahan untuk kulkas mini dan televisi (Rp 50.000) serta kompor listrik/AC Portable (Rp 150.000). Serta selalu memperhatikan faktor keamanan penggunaan barang elektronik.</li>
+            <li>Penghuni Kamar kost wajib menjaga kebersihan kamar dan kamar mandi serta keamanan dan ketertiban di lingkungan kamar kost maupun kenyamanan lingkungan warga sekitar.</li>
+            <li>Penghuni wajib membayar uang sewa setiap pada tanggal 10 setiap bulan. Jika ada kendala harap menghubungi pemilik kost terlebih dahulu.</li>
+            <li>Khusus yang ingin menghuni berdua dalam satu kamar, maka dikenakan biaya tambahan sebesar Rp 300.000-/Bulan.</li>
+            <li>Setiap penghuni yang masuk pada tanggal 1-15, maka penghuni wajib membayarkan uang sewa secara penuh. Jika masuk pada tanggal 16-30/31, maka penghuni hanya membayar setengah dari harga sewa.</li>
+            <li>Dilarang keras mengadakan acara/berkumpul dua orang atau lebih di lingkungan rumah kost tanpa seizin ketua RT setempat.</li>
+            <li>Dilarang keras membawa tamu lawan jenis ke dalam kamar kost.</li>
+            <li>Dilarang keras membuat kerusuhan yang membuat keresahan penghuni kost maupun lingkungan Rumah Kost.</li>
+        </ol>
+
+        <h2>Sanksi Pelanggaran Peraturan</h2>
+        <ol style="text-align: justify;">
+            <li>Apabila telat melakukan pembayaran tanpa adanya konfirmasi, maka akan dikenakan sanksi keras yaitu dipersilahkan keluar dari kost Gashando dalam kurun waktu 1x24 jam tanpa adanya pengembalian uang sewa secara penuh.</li>
+            <li>Apabila terjadi kecelakaan akibat kelalaian dan kecerobohan penghuni seperti gas bocor, konsleting listrik, dan sejenisnya, maka pihak kost Gashando tidak bertanggung jawab dan pelaku wajib membayar biaya perbaikan.</li>
+            <li>Apabila melanggar peraturan pada poin 8, 9, dan 10, maka akan dikeluarkan dari kost Gashando seperti sanksi pada poin 1.</li>
+        </ol>
+        
+        <h2>Password Wifi</h2>
+        <ul style="text-align: justify; list-style-type: none;">
+            <li>gashando750074</li>
+        </ul>
+        
+        <h2>Fasilitas Kost</h2>
+        <ul>
+            <li>Dapur umum</li>
+            <img src="Dapurkost.jpeg" alt="Dapur Umum">
+            <li>Tempat sampah</li>
+            <img src="Wc.jpeg" alt="Tempat sampah">
+            <li>Kamar penghuni</li>
+            <img src="denah.jpeg" alt="Kamar penghuni">
+            <img src="kamar.jpeg" alt="Kamar penghuni">
+        </ul>
+    
+        <h2>Video Tutorial</h2>
+        <ul>
+            <li>Cara membuka gembok pagar</li>
+            </ul>
+            <ul style="text-align: justify; list-style-type: none;">
+            <li>Kode kunci: 13678</li>
+        </ul>
+        <ul>
+            <video controls style="width: 100%; max-width: 400px; aspect-ratio: 9/16;">
+                <source src="Cara membuka gembok.mp4" type="video/mp4">
+            </video>
+            <li>Cara memancing dan menyalakan mesin air</li>
+            <video controls style="width: 100%; max-width: 400px; aspect-ratio: 9/16;">
+                <source src="mancing.mp4" type="video/mp4">
+            </video>
+            <ul style="text-align: justify; list-style-type: none;">
+            <li>Note: Mancing mesin airnya harus sampai luber</li>
+        </ul>
+    </div>
+    
+</body>
+</html>
